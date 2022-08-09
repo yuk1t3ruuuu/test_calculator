@@ -28,7 +28,7 @@ class _PostsState extends State<Posts> {
       body: Column(
         children: [
 
-          //問２
+
           StreamBuilder<QuerySnapshot>(
               stream: FirebaseFirestore.instance.collection('posts').orderBy('date').snapshots(),//日付順で並べたドキュメント
               builder: (context, snapshot){

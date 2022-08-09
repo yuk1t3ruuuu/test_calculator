@@ -37,7 +37,7 @@ class _Auth extends State<Auth> {
     // TODO: implement initState
     super.initState();
 
-    //リスナーの実行を忘れないようにしましょう。
+
     checkSignInState();
   }
 
